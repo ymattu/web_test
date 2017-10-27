@@ -1,0 +1,18 @@
+name: "テスト"
+navbar:
+  title: "テスト"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "map"
+      href: leaflet.html
+  right:
+    - icon: fa-twitter
+      href: https://twitter.com/y__mattu
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    df_print: "tibble"
+    css: site_style.css
+output_dir: "docs"
